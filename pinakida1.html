@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>View Document</title>
+    <title>View DOCX File</title>
+    <style>
+        /* Fullscreen style */
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>View Document from GitHub Repository</h1>
-
-    <p>Click the link below to view the document:</p>
-    <a href="https://github.com/HorizonSuitesMilos/HorizonSuitesMilos.github.io/main/pinakida.docx" target="_blank">View Document</a>
-
-    <!-- If you want to embed a PDF, you can use an iframe like this: -->
-    <!--
-    <iframe src="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/raw/main/YOUR_PDF_DOCUMENT.pdf" width="600" height="400"></iframe>
-    -->
+    <iframe src="https://docs.google.com/viewerng/viewer?url=https://drive.google.com/drive/folders/174u1ijjMRVy1lQ9wO6xafaYx_aFqtXTT?usp=sharing&embedded=true" allowfullscreen></iframe>
 </body>
 </html>
